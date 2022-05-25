@@ -4,6 +4,7 @@ import Home from './components/pages/Home.js';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
+import Footer from './components/Footer';
 
 import { Routes, BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -19,6 +20,7 @@ function App() {
           <Route path='/products' element={<Products/>} />
           <Route path='/sign-up' element={<SignUp/>} />
         </Routes>
+        <Footer />
      </Router>
      
     </>
